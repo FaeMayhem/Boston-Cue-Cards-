@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boston Cue Cards</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Boston Cue Cards</h1>
+
+<div class="buttons">
+<button onclick="showLocation('garden')">📍 Public Garden</button>
+<button onclick="showLocation('commonwealth')">📍 Commonwealth Ave</button>
+<button onclick="showLocation('copley')">📍 Copley Square</button>
+<button onclick="showLocation('library')">📍 Boston Public Library</button>
+<button onclick="showLocation('prudential')">📍 Prudential</button>
+</div>
+
+<hr>
+
+<div class="buttons">
+<button onclick="crosswalkMode()">🚦 Crosswalk Mode</button>
+<button onclick="randomFact()">🎲 Crosswalk Fact</button>
+<button onclick="randomQuestion()">❓ Audience Question</button>
+<button onclick="emergencyFiller()">🚨 Emergency Filler</button>
+<button onclick="copyCurrent()">📋 Copy Notes</button>
+</div>
+
+<div id="content">
+<h2>Welcome</h2>
+<p>Select a location.</p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
